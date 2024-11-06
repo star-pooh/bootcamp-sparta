@@ -106,7 +106,6 @@
 
         $("#savebtn").click(async function () {
             $('#postingbox').toggle();
-            await addDoc(collection(db, "albums"), doc);
         })
 
         let url = "http://spartacodingclub.shop/sparta_api/seoulair";
